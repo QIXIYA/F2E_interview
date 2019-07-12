@@ -1,0 +1,733 @@
+.fitting_room {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border: 0;
+}
+
+area {
+    outline: none;
+}
+
+#L1-notice {
+    position: relative;
+    width: 1280px;
+    background: #fe0000;
+    height: 50px;
+
+}
+
+#L1-notice li {
+    list-style: none;
+}
+
+#slider_1250 .hd ul li,
+#slider_spec .hd ul li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    overflow: hidden;
+    margin-right: 12px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-indent: -999px;
+    background-color: rgb(209, 209, 209);
+}
+
+#slider_1250 .hd ul li.on,
+#slider_spec .hd ul li.on {
+    background-color: #606060;
+}
+
+#slider_spec .prev,
+#slider_goods .prev,
+#slider_jeans .prev {
+    background: url(https://img.alicdn.com/imgextra/i4/196993935/TB2x9r2cnAlyKJjSZPiXXXL2VXa-196993935.png) no-repeat left center;
+}
+
+#slider_spec .next,
+#slider_goods .next,
+#slider_jeans .next {
+    background: url(https://img.alicdn.com/imgextra/i1/196993935/TB2Vxnfbo.iyKJjSspdXXbB_pXa-196993935.png) no-repeat right center;
+}
+
+#slider_1250 .hd,
+#slider_spec .hd {
+    position: absolute;
+    left: 50%;
+    bottom: 4px;
+    height: 8px;
+    transform: translate(-50%, 50%);
+    background: transparent;
+    border: none;
+}
+
+#slider_1250 .hd {
+    bottom: calc(37px/2);
+}
+
+#slider_spc .hd {
+    bottom: calc(50px/2);
+}
+
+#slider_goods .bd,
+#slider_spec .bd,
+#slider_jeans .bd {
+    overflow: hidden;
+}
+
+#slider_goods .bd ul li,
+#slider_spec .bd ul li,
+#slider_jeans .bd ul li {
+    margin-right: 20px;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+}
+
+/*slider_1250  */
+#slider_1250 {
+    width: 100%;
+    height: 100%;
+}
+
+#slider_1250 .prev,
+#slider_1250 .next {
+    float: left;
+    display: block;
+    width: 40px;
+    height: 50px;
+}
+
+#slider_1250 .bd {
+    float: left;
+    width: 1200px;
+    margin-bottom: 0 !important;
+}
+
+#slider_1250 .prev {
+    background: url('https://www.uniqlo.cn/public/image/L1/2019/common/notice_prev.png') no-repeat center center;
+}
+
+#slider_1250 .next {
+    background: url('https://www.uniqlo.cn/public/image/L1/2019/common/notice_next.png') no-repeat center center;
+}
+
+/*BigSlide */
+/* #L1-notice img{
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+}*/
+img.notice-banner {
+    margin-left: -320px;
+    zoom: 1;
+}
+
+/*智能小优*/
+.ban_text {
+
+    height: 105px;
+    border-bottom: #dadada 1px solid;
+
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: "微软雅黑";
+    color: #000;
+    cursor: pointer;
+}
+
+.ban_text span.title {
+    font-size: 16px;
+    height: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.ban_text span {
+    font-size: 12px;
+    margin: 10px 0 -6px;
+    text-align: center;
+    display: inline-block;
+}
+
+.robort {
+    margin: 52px 0 52px -170px;
+}
+
+.mzbanner {
+    margin-left: -465px;
+}
+
+html,
+body,
+ul,
+li {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    background: #fff;
+    font-family: "UniqloProRegular", "fzlt_pro" !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+li {
+    position: relative;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+div.eshop div#bd,
+div.eshop div#bd div.box {
+    margin-bottom: 0;
+}
+
+.L1-new-sale,
+.u-main-slider,
+.L1-tab-info,
+.L1-tab {
+    position: relative;
+}
+
+.u-main-slider,
+.u-main-info {
+    position: relative;
+    width: 1280px;
+
+    margin: 0 auto;
+}
+
+.u-main-slider {
+    height: 570px;
+}
+
+.u-main-info {
+    height: 322px;
+    margin-bottom: 44px;
+}
+
+.u-main-slider .next,
+.u-main-slider .prev,
+.u-main-info .next,
+.u-main-info .prev {
+    position: absolute;
+    display: block;
+    top: 0;
+    width: 50px;
+    cursor: pointer;
+}
+
+.u-main-slider .next,
+.u-main-slider .prev {
+    height: 100%;
+}
+
+.u-main-info .next,
+.u-main-info .prev {
+    height: 220px;
+}
+
+.u-main-slider .prev,
+.u-main-info .prev {
+    left: -50px;
+    background: url(https://img.alicdn.com/imgextra/i4/196993935/TB2x9r2cnAlyKJjSZPiXXXL2VXa-196993935.png) no-repeat center center;
+}
+
+.u-main-slider .next,
+.u-main-info .next {
+    right: -50px;
+    background: url(https://img.alicdn.com/imgextra/i1/196993935/TB2Vxnfbo.iyKJjSspdXXbB_pXa-196993935.png) no-repeat center center;
+}
+
+#u-main-slider .hd,
+#u-main-info .hd {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    background: none;
+    border: none;
+    width: 1280px;
+}
+
+#u-main-slider .hd {
+    bottom: -64px;
+    height: 8px;
+    line-height: 0;
+}
+
+#u-main-info .hd {
+    bottom: -64px;
+    height: 8px line-height: 0;
+}
+
+#u-main-slider .hd ul,
+#u-main-info .hd ul {
+    display: inline-block;
+}
+
+.u-main-slider .hd ul li,
+.u-main-info .hd ul li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    margin-right: 12px;
+    background: #ccc;
+    border-radius: 50%;
+    background: rgba(209, 209, 209);
+    cursor: pointer;
+    text-indent: -199999px;
+}
+
+.u-main-slider .hd ul li.on,
+.u-main-info .hd ul li.on {
+    background: #606060;
+}
+
+.u-main-slider .bd ul {
+    float: left;
+    width: 1280px;
+}
+
+.u-main-slider .bd ul li {
+    width: 1280px;
+    height: 570px;
+}
+
+.u-main-info .bd li {
+    float: left;
+    width: 305px;
+    height: 322px;
+    margin-right: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.u-main-slider .bd ul a,
+.u-main-info .bd ul a {
+    font-size: 0;
+}
+
+/* 新品 */
+.L1-new-sale {
+    width: 1280px;
+    background: #fff;
+}
+
+.L1-new-sale ul {
+    display: flex;
+    width: 100%;
+    height: 103px;
+    /*border-bottom: #dadada 1px solid;
+border-top: #dadada 1px solid;*/
+}
+
+.m-new-sale {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.m-new-sale::before {
+    content: "";
+    display: block;
+    background: #dadada;
+    width: 1px;
+    height: 14px;
+    position: absolute;
+    right: 0px;
+    top: 25px;
+}
+
+.m-new-sale:last-child::before {
+    display: none;
+}
+
+.m-new-sale p {
+    text-align: center;
+    flex: 1;
+}
+
+.m-new-sale p.m-title {
+    font-size: 16px;
+    height: 24px;
+    font-weight: bold;
+    margin-top: 25px;
+    position: relative;
+}
+
+.m-new-sale p.m-descr {
+    font-size: 12px;
+}
+
+.m-new-sale p.m-list-footer {
+    display: inline-block;
+    flex-direction: row;
+    width: 90%;
+}
+
+.m-new-sale p.m-list-footer a {
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 14px;
+    color: #000;
+    margin-left: 20px;
+}
+
+.m-new-sale p.m-list-footer a:nth-child(1) {
+    margin-left: 0;
+}
+
+/*.m-new-sale p.m-list-footer a:hover {
+color: #378694;
+}
+*/
+/*.m-new-sale p.m-list-footer a.m-Women {
+border-bottom: 2px solid #ff0000;
+}
+
+.m-new-sale p.m-list-footer a.m-Men {
+border-bottom: 2px solid #000066;
+}
+
+.m-new-sale p.m-list-footer a.m-Kids {
+border-bottom: 2px solid #54b2ef;
+}
+
+.m-new-sale p.m-list-footer a.m-Baby {
+border-bottom: 2px solid #99cc00;
+}*/
+.m-new-sale p.m-list-footer a.m-all {
+    border-bottom: 2px solid #dadada;
+    cursor: pointer;
+
+}
+
+.m-new-sale p.m-list-footer a span {
+    position: relative;
+}
+
+.m-new-sale p.m-list-footer a span:after {
+    content: "";
+    display: block;
+    background: #dadada;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    right: 0px;
+    top: 21px;
+}
+
+.m-ban-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 105px;
+    border-bottom: #dadada 1px solid;
+    margin-top: 20px;
+    font-family: "微软雅黑";
+    color: #000;
+    cursor: pointer;
+}
+
+.m-ban-text .title {
+    font-size: 16px;
+    height: 24px;
+    font-weight: bold;
+}
+
+.m-ban-text p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.m-ban-text p a {
+    text-decoration: underline;
+    color: #000;
+}
+
+.m-ban-text p a:visited,
+.m-ban-text p a:link {
+    color: #000;
+}
+
+.m-ban-text p:last-of-type {
+    margin-top: 10px;
+}
+
+/* 选项卡 */
+.L1-tab {
+    width: 1280px;
+    /*margin-top: 52px;*/
+}
+
+.L1-tab .tab-h2 {
+    margin-bottom: 20px;
+}
+
+.tab-heading {
+    width: 1280px;
+    height: 50px;
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 28px;
+}
+
+.tab-heading__anchor:link:hover,
+.tab-heading__anchor:visited:hover {
+    color: #1b1b1b;
+}
+
+.tab-heading__items {
+    display: flex;
+}
+
+.tab-heading__item {
+    flex: 1;
+    font-family: 'UniqloProRegular', 'fzlt_pro';
+}
+
+.tab-heading__anchor {
+    display: block;
+    padding: 0 30px 20px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.tab-heading__anchor:link,
+.tab-heading__anchor:visited {
+    color: #ababab;
+}
+
+.tab-heading__anchor.active {
+    border-bottom: 3px solid #378694;
+    color: #1b1b1b;
+}
+
+.tab-content {
+    position: relative;
+}
+
+.tab-content div {
+    display: none;
+    /*position: absolute;
+left: 0;
+top: 0;*/
+}
+
+.tab-content div.active {
+    display: block;
+}
+
+.content-row {
+    position: relative;
+    margin-bottom: 28px;
+}
+
+.content-row .info-title,
+.content-row .info-up-title,
+.content-row .info-down-title,
+.content-column .info-title {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    font-size: 16px;
+    color: #000;
+    text-decoration: underline;
+}
+
+.content-column .content-left-img-wrapper,
+.content-column .content-right-img-wrapper {
+    display: block;
+    position: relative;
+}
+
+.content-column .content-left-img-wrapper {
+    float: left;
+}
+
+.content-column .content-right-img-wrapper {
+    float: right;
+}
+
+.content-row .info-up-title {
+    bottom: 390px;
+}
+
+.content-row .info-down-title {
+    bottom: 284px;
+}
+
+#L1-tab-limited .tab-content .content-row .info-up-title {
+    bottom: 363px;
+}
+
+#L1-tab-limited .tab-content .content-row .info-down-title {
+    bottom: 236px;
+}
+
+#L1-tab-recommend .tab-content,
+#L1-tab-new .tab-content,
+#L1-tab-limited .tab-content {
+    /*height: 1247px;*/
+}
+
+#L1-tab-hot .tab-content {
+    height: 828px;
+}
+
+#L1-tab-ranking .tab-content {
+    height: 392px;
+}
+
+@media only screen and (max-device-width: 769px) {
+
+    .L1-new-sale,
+    .u-main-slider,
+    .L1-tab-info,
+    .L1-tab {
+        position: relative;
+        left: 0;
+        margin: 52px auto;
+        zoom: 0.74;
+    }
+
+    .u-main-info {
+        zoom: 0.74;
+        margin-left: 14px;
+    }
+}
+
+.content-column img {
+    height: 649px;
+}
+
+.bd,
+.bd .h-component,
+.hd,
+.hd .h-component {
+    margin-bottom: 52px;
+}
+
+div.other_box {
+    width: 1280px;
+    height: 200px;
+    position: relative;
+    margin-top: 2px;
+}
+
+div.oshow_box {
+    width: 1280px;
+    height: 200px;
+}
+
+div.oshow_box ul {
+    width: 1280px;
+    height: 100%;
+}
+
+div.oshow_box ul li {
+    float: left;
+    height: 200px;
+    width: 1280px;
+}
+
+.other_box a {
+    position: absolute;
+}
+
+.other_box a.prev {
+    left: -30px;
+    top: 30%;
+}
+
+.other_box a.next {
+    right: -30px;
+    top: 30%;
+}
+
+.u-main-slider img {
+    height: 570px;
+}
+
+div#slide_1250 img {
+    height: 40px;
+}
+
+.tab-content .content-row img {
+    height: 570px;
+}
+
+.tab-content .content-column img {
+    height: 649px;
+}
+
+.tab-h2 img {
+    height: 42px;
+    margin-left: -20px;
+}
+
+#L1-tab-hot .tab-content img {
+    height: 828px;
+}
+
+#L1-tab-cooperate .tab-content img {
+    height: 465px;
+}
+
+#L1-tab-info .u-main-info img {
+    height: 322px;
+}
+
+div.other_box .hd {
+    height: 8px;
+    position: relative;
+    left: 45%;
+    top: 5px;
+}
+
+div.other_box .hd ul {
+    height: 100%;
+}
+
+div.other_box .hd ul li {
+    width: 8px;
+    height: 100%;
+    border-radius: 50%;
+    background: #ccc;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+div.other_box .hd ul li.on {
+    background: black;
+}
+
+.fitting_room {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border: 0;
+}
